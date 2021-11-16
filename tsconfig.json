@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "declaration": true,
+    "allowJs": true,
+    "target": "es5" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
+    "module": "commonjs" /* Specify what module code is generated. */,
+    "skipLibCheck": true /* Skip type checking all .d.ts files. */
+  },
+  "include": [
+    "./.eslintrc.js",
+    "./.prettierrc.js",
+    "./release.config.js",
+    "./commitlint.config.js",
+    "./src/**/*.ts"
+  ],
+  "exclude": ["node_modules", "dist"]
+}
